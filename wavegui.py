@@ -61,22 +61,22 @@ def btn_pressed(text):
 
 
 #sine photo and btn
-sinep= PhotoImage(file="/Users/jesustembras/Desktop/Fourier Synthesizer/589707-200.png")
+sinep= PhotoImage(file="589707-200.png")
 sinep=sinep.subsample(3,3)
 sine=Button(root, height=100, width=100, image=sinep, command=lambda: btn_pressed(1)).grid(row=0,column=1, sticky=W)
 
 #square photo and btn
-sqp=PhotoImage(file="/Users/jesustembras/Desktop/Fourier Synthesizer/2613422-200.png")
+sqp=PhotoImage(file="2613422-200.png")
 sqp=sqp.subsample(2,2)
 square=Button(root, text="2", height=100, width=100, image=sqp, command=lambda: btn_pressed(2)).grid(row=0,column=2, sticky=W)
 
 #saw photo and btn
-sawp=PhotoImage(file="/Users/jesustembras/Desktop/Fourier Synthesizer/863-8636352_sound-wave-sawtooth-synth-music-comments.png")
+sawp=PhotoImage(file="863-8636352_sound-wave-sawtooth-synth-music-comments.png")
 sawp=sawp.subsample(19,19)
 saw=Button(root, text="3", height=100, width=100, image=sawp, command=lambda: btn_pressed(3)).grid(row=0,column=3)
 
 #triangle photo and btn
-trip=PhotoImage(file="/Users/jesustembras/Desktop/Fourier Synthesizer/3629643-200.png")
+trip=PhotoImage(file="3629643-200.png")
 trip=trip.subsample(3,3)
 triangle=Button(root,text="4", height=100, width=100, image=trip, command=lambda: btn_pressed(4)).grid(row=0,column=4)
 
