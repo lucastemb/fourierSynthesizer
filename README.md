@@ -1,3 +1,5 @@
+This project uses the Fourier series to model different types of sound waves. The calculations underlying the sound waves were manually computed. 
+
 To run the program as intended, you will need to install the latest version of Python (3.11). You will also need to download the necessary libraries 
 using commands listed below. 
 
